@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Azur Keys – Conciergerie Privée du Sud</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fefefe;
+      color: #333;
+    }
+    header, footer {
+      background-color: #002b5c;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    nav {
+      background: #e0e0e0;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #002b5c;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+    .hero {
+      padding: 80px 20px;
+      text-align: center;
+      background: linear-gradient(to right, #003366, #005fa3);
+      color: white;
+    }
+    .section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #002b5c;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    input, select, textarea, button {
+      margin-bottom: 15px;
+      padding: 10px;
+      font-size: 1rem;
+    }
+    button {
+      background-color: #002b5c;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #004080;
+    }
+    @media screen and (max-width: 768px) {
+      .hero h1 {
+        font-size: 2em;
+      }
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Azur Keys</h1>
+  <p>Conciergerie Privée du Sud – 7j/7, 24h/24</p>
+</header>
+
+<nav>
+  <a href="#services">Services</a>
+  <a href="#tarifs">Tarifs</a>
+  <a href="#abonnements">Abonnements</a>
+  <a href="#formulaire">Demande</a>
+  <a href="#avis">Avis</a>
+</nav>
+
+<div class="hero">
+  <h1>Votre Conciergerie de Confiance sur la Côte d’Azur</h1>
+  <p>Pour résidences, locations, VIP, entreprises et demandes sur-mesure</p>
+</div>
+
+<div class="section" id="services">
+  <h2>Nos Services</h2>
+  <ul>
+    <li><strong>Gestion Locative Airbnb :</strong> check-in/out, ménage, linge, photos pro</li>
+    <li><strong>Résidences & Villas :</strong> ménage, pressing, jardinage, chef, surveillance</li>
+    <li><strong>Transport :</strong> chauffeurs, voitures luxe, bateau, transferts</li>
+    <li><strong>VIP :</strong> massages, shopping, événements, sécurité, champagne</li>
+    <li><strong>Entreprises :</strong> bureaux, repas, VIP, administratif</li>
+    <li><strong>Garde d’animaux :</strong> promenade ou à domicile</li>
+    <li><strong>Lavage voiture :</strong> intérieur/extérieur à domicile</li>
+  </ul>
+</div>
+
+<div class="section" id="tarifs">
+  <h2>Nos Tarifs</h2>
+  <ul>
+    <li>Airbnb : dès 20%/réservation</li>
+    <li>Ménage : dès 29€/h</li>
+    <li>Chauffeur : dès 59€/trajet</li>
+    <li>VIP & Événement : sur devis</li>
+    <li>Entreprise : dès 99€/mois</li>
+    <li>Animaux : 25€/jour ou 15€/promenade</li>
+    <li>Lavage voiture : 39€</li>
+    <li>Services personnalisés : 24h/24 – sur devis</li>
+  </ul>
+</div>
+
+<div class="section" id="abonnements">
+  <h2>Nos Abonnements</h2>
+  <ul>
+    <li><strong>Essentiel – 149€/mois :</strong> 1 check-in, ménage, transport local, support WhatsApp</li>
+    <li><strong>Confort – 299€/mois :</strong> 3 check-in, ménage complet, pressing, garde animaux, chauffeur</li>
+    <li><strong>Prestige – Sur mesure :</strong> services illimités, VIP, international</li>
+  </ul>
+</div>
+
+<div class="section" id="formulaire">
+  <h2>Formulaire de Demande</h2>
+  <form action="#" method="post">
+    <input type="text" name="name" placeholder="Votre nom" required>
+    <input type="email" name="email" placeholder="Votre email" required>
+    <input type="tel" name="phone" placeholder="Téléphone" required>
+    <select name="service" required>
+      <option value="">-- Sélectionnez un service --</option>
+      <option>Gestion Locative</option>
+      <option>Résidences & Villas</option>
+      <option>Transport</option>
+      <option>VIP</option>
+      <option>Entreprise</option>
+      <option>Animaux</option>
+      <option>Lavage voiture</option>
+      <option>Demande personnalisée</option>
+    </select>
+    <input type="text" name="duree" placeholder="Durée / fréquence" required>
+    <textarea name="message" rows="4" placeholder="Détails..."></textarea>
+    <button type="submit">Envoyer</button>
+  </form>
+</div>
+
+<div class="section" id="avis">
+  <h2>Avis Clients</h2>
+  <ul>
+    <li>“Service parfait pour mes locataires !” – Claire M., Marseille</li>
+    <li>“Ma villa est toujours impeccable.” – Sandrine D., St-Tropez</li>
+    <li>“Chauffeur luxe, ponctuel et pro.” – Linda B., Cannes</li>
+    <li>“Réservation massage & soirée privée 5⭐.” – Sabrina K., Cassis</li>
+    <li>“Accueil clients entreprise au top.” – Delphine L., Nîmes</li>
+  </ul>
+</div>
+
+<footer>
+  <p>© 2025 Azur Keys – Contact WhatsApp :
+     <a href="https://wa.me/33689073913" style="color: white;">+33 6 89 07 39 13</a></p>
+</footer>
+
+</body>
+</html>
