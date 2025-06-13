@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Azur Keys - Conciergerie Privée</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header, footer {
+      background-color: #002B5C;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+    }
+    nav {
+      background: #eeeeee;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #002B5C;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #002B5C;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .formulaire input, .formulaire select, .formulaire textarea, .formulaire button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      font-size: 1em;
+    }
+    .formulaire button {
+      background-color: #002B5C;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .formulaire button:hover {
+      background-color: #004080;
+    }
+    .avis {
+      background-color: #ffffff;
+      border: 1px solid #ddd;
+      padding: 15px;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Azur Keys</h1>
+  <p>Conciergerie privée 7j/7 - 24h/24 sur la Côte d’Azur et alentours</p>
+</header>
+
+<nav>
+  <a href="#services">Services</a>
+  <a href="#tarifs">Tarifs</a>
+  <a href="#abonnements">Abonnements</a>
+  <a href="#formulaire">Demande</a>
+  <a href="#avis">Avis</a>
+</nav>
+
+<section id="services">
+  <h2>Nos Services</h2>
+  <ul>
+    <li>Gestion locative saisonnière (Airbnb, Booking...)</li>
+    <li>Check-in/out, ménage, linge, maintenance</li>
+    <li>Entretien de villas : jardinage, piscine, pressing</li>
+    <li>Transport : chauffeurs, location voiture/bateau</li>
+    <li>Services VIP : événements privés, massage, sécurité</li>
+    <li>Garde d’animaux à domicile ou promenade</li>
+    <li>Lavage voiture à domicile (intérieur/extérieur)</li>
+  </ul>
+</section>
+
+<section id="tarifs">
+  <h2>Tarifs</h2>
+  <ul>
+    <li>Check-in/out : à partir de 49€</li>
+    <li>Ménage : dès 29€/h</li>
+    <li>Location chauffeur : dès 59€/trajet</li>
+    <li>Lavage voiture : 39€</li>
+    <li>Garde animaux : 15€ la promenade, 25€/jour</li>
+    <li>Services VIP : sur devis</li>
+  </ul>
+</section>
+
+<section id="abonnements">
+  <h2>Formules Abonnement</h2>
+  <ul>
+    <li><strong>Essentiel (149€/mois)</strong> : ménage + check-in + support client</li>
+    <li><strong>Confort (299€/mois)</strong> : ménage + pressing + transport + animaux</li>
+    <li><strong>Prestige (sur mesure)</strong> : tous services illimités</li>
+  </ul>
+</section>
+
+<section id="formulaire">
+  <h2>Demander un Service</h2>
+  <form class="formulaire" action="#" method="post">
+    <input type="text" name="nom" placeholder="Votre nom" required>
+    <input type="email" name="email" placeholder="Votre email" required>
+    <input type="tel" name="tel" placeholder="Téléphone" required>
+    <select name="service" required>
+      <option value="">-- Choisir un service --</option>
+      <option>Gestion Locative</option>
+      <option>Résidences & Villas</option>
+      <option>Transport</option>
+      <option>VIP</option>
+      <option>Animaux</option>
+      <option>Lavage voiture</option>
+      <option>Autre demande</option>
+    </select>
+    <input type="text" name="frequence" placeholder="Durée / Fréquence souhaitée">
+    <textarea name="message" rows="5" placeholder="Précisez votre demande..."></textarea>
+    <button type="submit">Envoyer</button>
+  </form>
+</section>
+
+<section id="avis">
+  <h2>Avis Clients</h2>
+  <div class="avis">“Excellent service pour ma maison secondaire à Saint-Tropez !” – Camille L.</div>
+  <div class="avis">“Ponctuels, pro, et très efficaces pour mes locations Airbnb.” – Thomas G.</div>
+  <div class="avis">“Le service de lavage auto est top, je recommande !” – Sofia D.</div>
+  <div class="avis">“Une conciergerie qui mérite sa réputation.” – Benjamin M.</div>
+  <div class="avis">“Un vrai luxe de ne rien gérer soi-même.” – Laura P.</div>
+</section>
+
+<footer>
+  <p>© 2025 Azur Keys – Contact WhatsApp :
+    <a href="https://wa.me/33689073913" style="color: white;">+33 6 89 07 39 13</a>
+  </p>
+</footer>
+
+</body>
+</html>
